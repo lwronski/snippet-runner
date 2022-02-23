@@ -20,4 +20,3 @@ jobs:
           apps: scala-cli
        - run: scala-cli
        - run: echo 'println("Hello")' | scala-cli -
-       - run: echo 'println("Hello")' | scala-cli -
