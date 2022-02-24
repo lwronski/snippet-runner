@@ -15,7 +15,7 @@ jobs:
       steps:
        - uses: actions/checkout@v2
        - uses: coursier/cache-action@v6
-       - uses: lwronski/scala-cli-setup-action@main
+       - uses: VirtusLab/scala-cli-setup@main
        - run: scala-cli
        - run: echo 'println("Hello")' | scala-cli -
        - run: echo 'println("Hello")' | scala-cli -
