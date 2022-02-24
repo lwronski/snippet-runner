@@ -16,8 +16,6 @@ jobs:
        - uses: actions/checkout@v2
        - uses: coursier/cache-action@v6
        - uses: lwronski/scala-cli-setup-action@main
-         with:
-          apps: scala-cli:0.1.0
        - run: scala-cli
        - run: echo 'println("Hello")' | scala-cli -
        - run: echo 'println("Hello")' | scala-cli -
