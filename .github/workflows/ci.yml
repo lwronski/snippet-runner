@@ -7,7 +7,7 @@ on:
 
 jobs:
   snippet-runner:
-    timeout-minutes: 2
+    timeout-minutes: 30
     runs-on: "ubuntu-latest"
     steps:
-    - uses: lwronski/scala-snippet-checker@main
+    - uses: virtuslab/scala-snippet-checker@main
