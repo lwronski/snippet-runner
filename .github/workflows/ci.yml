@@ -10,4 +10,4 @@ jobs:
     timeout-minutes: 2
     runs-on: "ubuntu-latest"
     steps:
-    - uses: lwronski/scala-snippet-checker@0ba3ca17c4d599be2e5902ecebbf4170d0a1195d
+    - uses: lwronski/scala-snippet-checker@c6906dde72f9fc510431e0229bb8e6d71b70bf68
