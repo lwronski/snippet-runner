@@ -1,13 +1,13 @@
 name: CI
- on:
-   issue_comment:
-     types: [created, edited]
-   issues:
-     types: [opened, edited]
+on:
+ issue_comment:
+   types: [created, edited]
+ issues:
+   types: [opened, edited]
 
- jobs:
-    snippet-runner:
-      timeout-minutes: 2
-      runs-on: "ubuntu-latest"
-      steps:
-      - uses: lwronski/scala-snippet-checker@main
+jobs:
+  snippet-runner:
+    timeout-minutes: 2
+    runs-on: "ubuntu-latest"
+    steps:
+    - uses: lwronski/scala-snippet-checker@main
